@@ -264,11 +264,8 @@ public class Main extends javax.swing.JFrame {
      */
     static JLabel l; 
     public static void main(String args[]) {
-        final JFrame frame = new JFrame("JDialog Demo");
+        final JFrame frame = new JFrame("Login admin1/123");
         final JButton btnLogin = new JButton("Click to login");
-        
-        l = new JLabel();
-        l.setText("admin/123"); 
 
         btnLogin.addActionListener(
                 new ActionListener() {
