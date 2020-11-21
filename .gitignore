@@ -3,7 +3,6 @@
 ##############################
 .mtj.tmp/
 *.class
-*.jar
 *.war
 *.ear
 *.nar
@@ -71,6 +70,7 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+mysql-connector-java-8.0.21
 
 ##############################
 ## Visual Studio Code
